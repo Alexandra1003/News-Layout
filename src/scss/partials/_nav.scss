@@ -1,0 +1,17 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 460px;
+  float: right;
+  .nav-content {
+    padding: 5px;
+    font-size: 13px;
+    color: #3c3c3c;
+    cursor: pointer;
+    &:hover {
+      color: #ae3b44;
+    }
+  }
+}
