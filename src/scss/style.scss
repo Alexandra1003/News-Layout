@@ -2,7 +2,7 @@
 // SCSS MIXINS
 //----------------------------------*/
 
-//@import 'mixins/_position.scss';
+@import 'mixins/_mixins.scss';
 
 //----------------------------------*\
 // CONFIG MODULES
@@ -24,6 +24,7 @@
 @import 'partials/_footer.scss';
 @import 'partials/_container.scss';
 @import 'partials/_news.scss';
+@import 'partials/_clients.scss';
 
 //----------------------------------*\
 // OBJECTS & MODULES
