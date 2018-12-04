@@ -3,15 +3,46 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  max-width: 460px;
   float: right;
+  padding-right: 23px;
+  position: relative;
   .nav-content {
-    padding: 5px;
-    font-size: 13px;
-    color: #3c3c3c;
+    padding: 11px;
     cursor: pointer;
-    &:hover {
-      color: #ae3b44;
+    a {
+      text-decoration: none;
+      color: #3c3c3c;
+      font-size: 13px;
+      &:hover {
+        color: #ae3b44;
+      }
     }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 37px;
+      right: 172px;
+      background-color: #212121;
+      width: 145px;
+      font-size: 12px;
+      z-index: 1;
+      
+      a {
+        color: #dbdedf;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        &:hover {
+          color: #fff;
+          font-weight: 600;
+        }
+      }
+    }    
   }
+  .layouts:hover .dropdown-content {
+    display: block;
 }
+  
+}
+

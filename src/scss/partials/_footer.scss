@@ -1,10 +1,11 @@
 .footer {
-   /*  position: absolute;
-    bottom: 0; */
     width: 100%;
     height: 175px;
     box-sizing: border-box;
     background-color: #f8f8f8;
+    .footer-container {
+        padding: 0 167px;
+    }
     .footer-content-wrapper {
         padding: 25px;
         height: 175px;
@@ -13,13 +14,99 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: flex-start;
+        .footer-part1 {
+            width: 47%;
+            h1 {
+                color: #aaa;
+                font-size: 15px;
+                margin: 0;
+                margin-bottom: 27px;
+                font-weight: 500;
+                text-align: left;
+            }
+            .footer-part1-content {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                width: 80%;
+                .footer-content {
+                    display: flex;
+                    flex-direction: column;
+                    line-height: 1.583;
+                
+                a {
+                    text-decoration: none;
+                    color: #cbcbcb;
+                    font-size: 12px;
+                }
+            }  
+            }
+        }
+        .footer-part2 {
+            width: 22%;
+        }
+        .footer-part3 {
+            width: 22%;
+            .icons-wrapper {
+                display: inline-block;
+                margin-bottom: 17px;
+                .icon {
+                    background: url('../../images/icons.png');
+                    background-repeat: no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    display: inline-block;
+                }
+                .first-icon {
+                        background-position: -5px -73px;
+    
+                        &:hover {
+                            background-position: -39px -73px;
+                        }
+                }
+                .second-icon {
+                    background-position: -5px -5px;
+    
+                        &:hover {
+                            background-position: -39px -5px;
+                        }
+                }
+                .third-icon {
+                        background-position: -5px -39px;
+    
+                        &:hover {
+                            background-position: -39px -39px;
+                    }
+                }
+                .fourth-icon {
+                    background-position: -73px -5px;
+    
+                        &:hover {
+                            background-position: -73px -39px;
+                        }
+                }
+            }
+        }
         .footer-content {
             display: flex;
             flex-direction: column;
-            h1, a {
+            line-height: 1.583;
+            h1 {
+                color: #aaa;
+                font-size: 15px;
+                margin: 0;
+                margin-bottom: 20px;
+                font-weight: 500;
+            }
+            a {
                 text-decoration: none;
+                color: #cbcbcb;
+                font-size: 12px;
+                
             }
         }
     }
     
 }
+
