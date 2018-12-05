@@ -38,11 +38,43 @@
           font-weight: 600;
         }
       }
+      i.fa-caret-up {
+        color: #212121;
+        position: absolute;
+        bottom: 95%;
+        left: 50%;
+      }
+      i.caret-visible {
+        color: #212121;
+        position: absolute;
+        right: 0;
+        left: 99%;
+      }
+
+      
     }    
   }
   .layouts:hover .dropdown-content {
     display: block;
 }
-  
-}
 
+
+}
+.dropdown-content-second {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 149px;
+  background-color: #212121;
+  width: 145px;
+  font-size: 12px;
+  z-index: 1;
+  i.caret-transparent {
+    color: #fff;
+    position: absolute;
+    left: -1%;
+  }
+}
+.dropdown-content:hover .dropdown-content-second {
+  display: block;
+}

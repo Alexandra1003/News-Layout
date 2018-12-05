@@ -10,12 +10,13 @@
     text-align: justify;
     .main-header-wrapper {
         position: relative;
-        padding: 27px 34px 27px 0;
+        padding: 31px 34px 27px 0;
         .main-header {
             color: #3d3d3d;
             font-size: 24px;
             max-width: 78%;
             text-align: left;
+            word-spacing: -3px;
         }
     }
     .main-date {
@@ -50,62 +51,58 @@
         font-size: 15px;
         color: #a1a3a4;
         font-style: italic;
-        padding: 26px 26px 29px 0px;
+        padding: 19px 26px 29px 0px;
         line-height: 1.4;
     }
     .main-header-red {
         color: #ae3b44;
         font-size: 15px;
-        padding: 27px 0;
+        padding: 24px 0 20px 0;
     }
     .main-text {
         font-size: 12px;
         line-height: 1.58;
         padding-right: 25px;
+        word-spacing: -0.52px;
     }
     .main-imgBig-wrapper {
         text-align: center;
         img {
-            padding: 42px 0 11px 0;
+            padding: 41px 36px 4px 0px;
         }
         div {
             font-size: 11px;
             color: #c0c0c0;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
+            margin-right: 40px;
         }
     }
     .main-text-top {
-        line-height: 1.583;
+        line-height: 1.6;
         font-size: 12px;
         padding-right: 18px;
     }
     .main-imgSmall-wrapper {
-        padding: 36px 33px 29px 0;
+        padding: 32px 33px 29px 0;
         float: left;
     }
     .main-text-center1 {
         line-height: 1.583;
         font-size: 12px;
-        margin-bottom: 29px;
+        margin-bottom: 22px;
         padding-right: 18px;
     }
     .main-text-center2 {
-        line-height: 1.583;
+        line-height: 1.6;
         font-size: 12px;
         padding-right: 18px;
-        padding-bottom: 38px;
+        padding-bottom: 31px;
     }
-/*     .main-text-bottom {
-        line-height: 1.583;
-        font-size: 12px;
-        clear: both;
-        padding-right: 18px;
-    } */
     .main-text-end1 {
         line-height: 1.583;
         font-size: 12px;
         padding-right: 18px;
-        padding-bottom: 27px;// the same as end2!
+        padding-bottom: 23px;
     }
     .main-text-end2 {
         line-height: 1.583;
@@ -141,14 +138,14 @@
         }
         .previous {
             float: left;
-            padding: 27px 0;
+            padding: 27px 0 23px 0;
             span {
                 margin-left: 17px;
             }
         }
         .next {
             float: right;
-            padding: 27px 0;
+            padding: 27px 0 23px 0;
             span {
                 margin-right: 17px;
             }

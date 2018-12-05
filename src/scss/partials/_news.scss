@@ -20,7 +20,7 @@
             justify-content: space-around;
             align-items: flex-start;
             text-align: left;
-            padding: 24px 30px;
+            padding: 22px 30px 24px 30px;
             .news-header {
                 font-size: 24px;
                 color: #fff;
@@ -31,6 +31,7 @@
                 .news-text-inside {
                     padding-bottom: 21px;
                     margin-left: 80px;
+                    line-height: 1.58;
                 }
             }
             .news-icons-wrapper {

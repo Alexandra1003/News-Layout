@@ -1,10 +1,11 @@
-body {
+html, body {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 .container {
-    padding: 37px 167px;
+    padding: 37px 167px 27px 167px;
+    min-width: 980px;
     position: relative;
     margin: auto;
     background-image: url("../../images/background.png");
