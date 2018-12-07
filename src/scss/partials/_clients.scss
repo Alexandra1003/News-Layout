@@ -1,12 +1,21 @@
-.line {
-    @include line;
-}
-.clients-wrapper {
+.clients-wrapper ul {
+    border-top: 1px solid #e7e7e7;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    padding: 22px 0;
+    
+    h4 {
+        font-weight: 400;
+    }
     img {
         cursor: pointer;
+        filter: grayscale(80%);
+        &:hover {
+            filter: none;
+        }
     }
 }

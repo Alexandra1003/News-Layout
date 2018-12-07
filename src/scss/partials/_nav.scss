@@ -1,13 +1,12 @@
 .nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  float: right;
-  padding-right: 23px;
+  margin-right: 23px;
+  width: 50%;
   position: relative;
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
   .nav-content {
-    padding: 11px;
     cursor: pointer;
     a {
       text-decoration: none;
@@ -20,8 +19,8 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      top: 37px;
-      right: 172px;
+      top: 24px;
+      right: 151px;
       background-color: #212121;
       width: 145px;
       font-size: 12px;

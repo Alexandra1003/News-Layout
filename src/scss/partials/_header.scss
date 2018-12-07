@@ -1,9 +1,11 @@
 .header {
-  padding-bottom: 85px;
-}
-.logo {
-  float: left;
-  img {
-
+  margin-bottom: 22px;
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 37px 0 20px;
   }
 }

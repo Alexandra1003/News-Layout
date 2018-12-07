@@ -2,11 +2,23 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url("../../images/background.png");
+    font-size: 12px;
+    ul, li {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    h1, h2, h3, h4, p {
+        margin: 0;
+        padding: 0;
+        
+    }
 }
 .container {
-    padding: 37px 167px 27px 167px;
-    min-width: 980px;
+   // padding: 0px 167px 27px 167px;
+    max-width: 980px;
     position: relative;
-    margin: auto;
-    background-image: url("../../images/background.png");
+    margin: 0 auto;
+    
 }
